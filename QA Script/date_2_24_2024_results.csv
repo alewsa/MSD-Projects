@@ -1,0 +1,53 @@
+Test #,Build #,Category,Test Case,Expected Result,Actual Result,Repeatable?,Blocker?,Test Owner
+1,2024-02-24,Main Page,ex bug: Clicking on PLAY for the deck tutorial doesn't work.,The Deck Tutorial to Begin,The side bar moves away and nothing else.,yes,yes,Melchor Abalos
+2,2024-02-24,Main Page,"ex bug: Clicking on ""Player Frame"" doesn't trigger anything","A customization option for the player frame, or a text that says no Frames available.",Hover Over animation works but when you click nothing happens.,yes,no,Melchor Abalos
+3,2024-02-24,Main Page,"ex bug: Clicking on ""Player Title"" doesn't trigger anything","A customization option for the player title, or a text that says no Titles available.",Hover Over animation works but when you click nothing happens.,yes,no,Melchor Abalos
+4,2024-02-24,Main Page,"ex bug: Clicking on ""Player Banner"" doesn't trigger anything","A customization option for the player banner, or a text that says no Banners available.",Hover Over animation works but when you click nothing happens.,yes,no,Melchor Abalos
+1,2024-02-24,Main Page,Clicking the Deck Builder Tutorial doesn't work.,Click 'Play' on Deck Builder Tutorial and boot open the Deck Builder Tutorial,"Click 'Play' on Deck Builder Tutorial, closed the Tutorial screen, and did nothing",Y,Y,Peter Hernandez
+2,2024-02-24,Main Page,Clicking into the Card Deck Menu,"Click Deck Builder option, clicked back to Main Page, and Deck Builder Tutorial was marked 'complete'",Deck Builder Tutorial to remain incomplete until I actualy play it,Y,Y,Peter Hernandez
+1,2024-02-24,MainPage,Doesn't change to fit vertical monitors,Thought it would minimize to fit a vertical monitor,it just zoomed in where I couldn’t read the screen,yes,No,Mimi Truong
+2,2024-02-24,During Tutorial,takes too long,Dragging the cards from my side to opponents for attack,Had to drag multiple times even when the box  underneath the card lit up it didn’t work,yes,No,Mimi Truong
+3,2024-02-24,Main page,Deck builder tutorial doesn’t do anything,Click deck builder tutorial and page changes to tutorial,Nothing happens it just goes to the main page,yes,No,Mimi Truong
+4,2024-02-24,Matchmaking page,taking too long,expected a match within a minute,Has been almost 5 mins and no match,Yes,No,Mimi Truong
+5,2024-02-24,Settings,Sound buttons don’t work,put all the sound music and sfx to 0 and it was tsill playing things thill after save,Silence,yes,No,Mimi Truong
+6,2024-02-24,Settings,x button doesn't work,x button closes window but nothing happens,x button in setting to close doesn’t close,yes,No,Mimi Truong
+7,2024-02-24,Friends list closing,blurred screen after closing friends list,"Friends list close, home screen goes back to normal",Friends list closed and the screen stays blurred I cant click anything had to refresh the page and it started back from the beginning,Yes,No,Mimi Truong
+8,2024-02-24,refresh page,Starts all over with authentication,would refresh and stay in the home page since I was already logged in and authenticated,refreshed to the beginning and had to authenticate all over again,yes,Yes,Mimi Truong
+9,2024-02-24,edit profile/player frame,click player frame,change the frame of player,nothing,yes,No,Mimi Truong
+10,2024-02-24,edit profile/player title,click player title,change the title of player,nothing,yes,No,Mimi Truong
+11,2024-02-24,edit profile/player banner,click player banner,something/anything,nothing,yes,No,Mimi Truong
+12,2024-02-24,Anime ultraman,click latest news/latest update,Give more information,nothing,yes,No,Mimi Truong
+13,2024-02-24,Adventure/in tutorial phase,just playing the tutorial,allow me to draw and play,phases keep changing without me ding anything,yes,No,Mimi Truong
+14,2024-02-24,game play,battle mode not activated,first round fo rme to have battle mode,I wasnt able to battle but oponent was.,yes,Yes,Mimi Truong
+15,2024-02-24,game play,timer stuck,timer moving,timer for opponent stuck,yes,Yes,Mimi Truong
+1,2024-02-24,Main Page,Clicking on PLAY for the deck tutorial doesn't work.,The Deck Tutorial to Begin,The side bar moves away and nothing else.,yes,yes,Melchor Abalos
+2,2024-02-24,Main Page,"Clicking on ""Player Frame"" doesn't trigger anything","A customization option for the player frame, or a text that says no Frames available.",Hover Over animation works but when you click nothing happens.,yes,no,Melchor Abalos
+3,2024-02-24,Main Page,"Clicking on ""Player Title"" doesn't trigger anything","A customization option for the player title, or a text that says no Titles available.",Hover Over animation works but when you click nothing happens.,yes,no,Melchor Abalos
+4,2024-02-24,Main Page,"Clicking on ""Player Banner"" doesn't trigger anything","A customization option for the player banner, or a text that says no Banners available.",Hover Over animation works but when you click nothing happens.,yes,no,Melchor Abalos
+6,2024-02-24,Game,"bug: in training mode, selecting rain of arrows during enemy turn pauses timer indefinitely and stops AI from acting",rain of arrows should damage the selected enemy cards and turn should continue,game is soft locked because the AI stops moving,yes,yes,Justin Reyes
+1,2024-02-24,Login,Loging in using google email after making account a few days prior,Login as normal,"Authenticator said im in, but when I go back to the other tab I havn't been logged in",yes,no,Armen Levonan
+1,2024-02-24,Login,Email Login,The auth window should be a popup,A new tab is opened,Yes,No,Bao Ngo
+2,2024-02-24,UI/Game,Screen Shake Settings,There should be an options to turn off screen shake,There is no option to do so,Yes,No,Bao Ngo
+1,2024-02-24,Login,Doesn’t stay logged in.,To stay log-in in all tabs.,You have to log-in again in all new tabs.,yes,yes,Shiva Ramezani
+2,2024-02-24,UI,Friend's list has no back option.,to be able to go back after seeing the list,It gets stuck in that page,yes,yes,Shiva Ramezani
+1,2024-02-24,UI,x button for settings popup window on main page does not work,"the popup closes, similar to ""Cancel"" button behavior",nothing,yes,no,Sungbin Cho
+2,2024-02-24,Main Page,annoying news popup,should only be opened when there is a new update user has not seen or at least only once a day,pops up every time you're on main page,yes,no,Sungbin Cho
+3,2024-02-24,Game,inaccessible deck builder tutorial,deck builder tutorial is played,nothing,yes,yes,Sungbin Cho
+4,2024-02-24,Login,annoying login procedure,login should persist on the same environment for considerable time,you must login using the off-tab with multiple authorizations back to back every time you want to launch the game,yes,no,Sungbin Cho
+5,2024-02-24,Game,"""set"" cards with ""flip"" effect, when activated during enemy turn, stops match","""flip"" effect plays, and enemy turn continues",game stops,yes,yes,Sungbin Cho
+6,2024-02-24,UI,"""exit tutorial"" button persists into non-tutorial games",it only shows on tutorials and nowhere else,"the button persists in normal games, and functions as a surrender button",yes,no,Sungbin Cho
+7,2024-02-24,UI,"deckbuilder doesn't allow you to add to deck without ""opening up"" the card in its ""detailed mode""","if user is sufficiently informed about their cards, they should be able to quickly add them to deck without going into the detailed card UI","you must use the ""card details"" UI to add cards to deck",yes,no,Sungbin Cho
+1,2024-02-24,UI,x button for settings popup window on main page does not work,"the popup closes, similar to ""Cancel"" button behavior",nothing,yes,no,Kevin Chaja
+2,2024-02-24,Main Page,annoying news popup,should only be opened when there is a new update user has not seen or at least only once a day,pops up every time you're on main page,yes,no,Kevin Chaja
+3,2024-02-24,Game,inaccessible deck builder tutorial,deck builder tutorial is played,nothing,yes,yes,Kevin Chaja
+4,2024-02-24,Login,annoying login procedure,login should persist on the same environment for considerable time,you must login using the off-tab with multiple authorizations back to back every time you want to launch the game,yes,no,Kevin Chaja
+5,2024-02-24,Game,"""set"" cards with ""flip"" effect, when activated during enemy turn, stops match","""flip"" effect plays, and enemy turn continues",game stops,yes,yes,Kevin Chaja
+6,2024-02-24,UI,"""exit tutorial"" button persists into non-tutorial games",it only shows on tutorials and nowhere else,"the button persists in normal games, and functions as a surrender button",yes,no,Kevin Chaja
+7,2024-02-24,UI,"deckbuilder doesn't allow you to add to deck without ""opening up"" the card in its ""detailed mode""","if user is sufficiently informed about their cards, they should be able to quickly add them to deck without going into the detailed card UI","you must use the ""card details"" UI to add cards to deck",yes,no,Kevin Chaja
+1,2024-02-24,Edit Profile,Nothing happens when I click Player Frame,Something to happen,Nothing,yes,no,Edwin Rivera
+2,2024-02-24,Choose Deck,Scroll Speed on choosing deck is too fast,slower scroll speed,fast scroll speed,yes,no,Edwin Rivera
+3,2024-02-24,Choose Deck,Doesn’t tell me how many cards are in my deck so I don’t know how many I need to add,Tell me current card total,doesn’t tell me card total,yes,no,Edwin Rivera
+1,2024-02-24,UI,Deck Builder button tutorial not clickable,Start the decker tutorial,Take me back to homepage,Yes,Yes,Felix Moreno
+1,2024-02-24,Main Page / Game,bug : build deck tutorial play button does not work,be able to play build deck tutorial when clicking on play,nothing happens when clicking play,yes,Yes,Tommy Tran
+2,2024-02-24,Login,user case: having to relog every time the page is closed or refreshed,stay logged in,logs out,yes,yes,Tommy Tran
+2,2024-02-24,game,Selecting the Build Deck didn't do anything after complete the first gameplay tutorial,Go to the Build deck tutorial,Did nothing/ went to the home screen,Yes,yes,Jainivash Korisal
